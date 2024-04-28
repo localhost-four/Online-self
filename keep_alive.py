@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def main():
-    return '<meta http-equiv="refresh" content="0; URL=https://phantom.fr.to/support"/>'
+    return '<meta http-equiv="refresh" content="0; URL=https://github.com/orgs/localhost-8/"/>'
 
 def run():
     app.run(host="0.0.0.0", port=8080)
